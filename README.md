@@ -230,6 +230,7 @@ unchanged with `--hasher sim|nts|hos|cvpr|mean|max|min|abs|std|sha256|md5`.
 ```bibtex
 @inproceedings{lorahash2026,
   title     = {LoRA-Hash: Unveiling Model Identity from Heavy-Tailed Weight Distributions},
+  author    = {He, Xing and Chen, Jiahao and Li, Junhao and Feng, Zhou and Ji, Shouling},
   booktitle = {IEEE International Conference on Multimedia and Expo (ICME)},
   year      = {2026}
 }
