@@ -1,0 +1,19 @@
+# Core (LoRA-Hash + baselines)
+torch>=2.0
+safetensors>=0.4
+numpy>=1.24
+scipy>=1.10          # NTS baseline: Shapiro-Wilk normality test
+pandas>=2.0          # attack_breakdown.py aggregation
+
+# Perceptual ground truth (scripts/measure_lpips_ssim.py)
+diffusers>=0.27
+transformers>=4.38
+accelerate>=0.27
+lpips>=0.1.4
+torchvision>=0.15
+scikit-image>=0.22   # SSIM
+Pillow>=10.0
+huggingface_hub>=0.20
+
+# Utilities
+tqdm>=4.65

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Experiment outputs
+results/
+lpips_ssim_comparison_images/
+*.log
+
+# Large binary artefacts (not distributed)
+*.pth
+*.pt
+*.safetensors
+*.ckpt
+*.bin
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
